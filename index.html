@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="shortcut icon"
+			href="https://cdn-icons-png.flaticon.com/512/489/489700.png"
+			type="image/x-icon"
+		/>
+		<title>Simon</title>
+	</head>
+	<body>
+		<section id="modal_loading">
+			<div class="modal_content">
+				<h1>Loading</h1>
+			</div>
+		</section>
+
+		<header>
+			<h1 id="level">level 1</h1>
+			<h1 id="score">highest : 0</h1>
+		</header>
+		<section class="boxes">
+			<button id="box_green" class="box"></button>
+			<button id="box_yellow" class="box"></button>
+			<button id="box_red" class="box"></button>
+			<button id="box_blue" class="box"></button>
+		</section>
+		<button id="start" class="start disable">Start</button>
+
+		<section id="modal_overlay" class="hide">
+			<div class="modal_content">
+				<h1>You Lose</h1>
+				<button id="modal_button">try again</button>
+			</div>
+		</section>
+
+		<script src="js/main.js"></script>
+		<script src="js/logic.js"></script>
+	</body>
+</html>
