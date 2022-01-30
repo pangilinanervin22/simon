@@ -71,19 +71,19 @@ function activeBox(boxID) {
 function playSound(soundName) {
 	switch (soundName) {
 		case "coin":
-			new Audio("https://pangilinanervin22.github.io/Simon/res/coin_sound.wav").play();
+			new Audio("https://pangilinanervin22.github.io/simon/res/coin_sound.wav").play();
 			break;
 		case "win":
-			new Audio("https://pangilinanervin22.github.io/Simon/res/win.wav").play();
+			new Audio("https://pangilinanervin22.github.io/simon/res/win.wav").play();
 			break;
 		case "lose":
-			new Audio("https://pangilinanervin22.github.io/Simon/res/lose.wav").play();
+			new Audio("https://pangilinanervin22.github.io/simon/res/lose.wav").play();
 			break;
 		case "try":
-			new Audio("https://pangilinanervin22.github.io/Simon/res/try.wav").play();
+			new Audio("https://pangilinanervin22.github.io/simon/res/try.wav").play();
 			break;
 		case "start":
-			new Audio("https://pangilinanervin22.github.io/Simon/res/start.wav").play();
+			new Audio("https://pangilinanervin22.github.io/simon/res/start.wav").play();
 			break;
 		default:
 	}
