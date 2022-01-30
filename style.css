@@ -127,10 +127,11 @@ header {
 	transition: transform 0.5s, box-shadow 0s;
 }
 
-.modal_button:hover {
+#modal_button:hover {
 	transform: scale(1.05);
+	background: rebeccapurple;
 }
 
-.modal_button:active {
-	box-shadow: 0 0 10px gray;
+#modal_button:active {
+	box-shadow: 0 0 20px gray;
 }
